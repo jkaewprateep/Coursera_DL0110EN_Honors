@@ -143,18 +143,19 @@ class Dataset(Dataset):                                                         
 
 🦤💬 I give some assignment to a student for SoftMax layer, Normalized layer ... </br>
 🥺💬 I answered about 5 years agos, now see more example people asking on the StackOverflow they are more desired on implement architecture and supporting of some specific system for OCR and documentation modules ... </br>
-🐑💬 ➰ There is no payback money or coins but that is time spending and working experience shared from study and experiments when a new comer can search and implementing of the guideline method with rocket 🚀 </br>
+🐑💬 ➰ There is no payback money or coins but that is time spending and working experience shared from study and experiments when a new comer can search and implement of the guideline method with rocket 🚀 </br>
 
 ```
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
 : Class / Definition
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
-class MyDenseLayer(tf.keras.layers.Layer):
+class MyDenseLayer(tf.keras.layers.Layer):                                          # 🧸💬 Create a custom class as Layer type.
     def __init__(self, num_outputs):
-        super(MyDenseLayer, self).__init__()
-        self.num_outputs = num_outputs
+        super(MyDenseLayer, self).__init__()                                        # 🧸💬 Create a new class object with the same type.
+                                                                                    # 🦭💬 Prevent shared memory problem 👨🏻‍🏫(2)💬 .
+        self.num_outputs = num_outputs                                              # 🧸💬 Initial number of output assign a local variable.
         
-    def build(self, input_shape):
+    def build(self, input_shape):                                                   # 🧸💬 Initail weights and shape of networks kernel.
         min_size_init = tf.keras.initializers.RandomUniform(minval=10, maxval=10, seed=None)
         self.kernel = self.add_weight(shape=[int(input_shape[-1]),
                         self.num_outputs],
@@ -162,7 +163,7 @@ class MyDenseLayer(tf.keras.layers.Layer):
                         trainable=True)
 
     def call(self, inputs):
-        return tf.matmul(inputs, self.kernel)
+        return tf.matmul(inputs, self.kernel)                                      # 🧸💬 Calculation outputs.
 ```
 
 ```
@@ -180,6 +181,7 @@ class MyLSTMLayer( tf.keras.layers.LSTM ):
         self.num_units])
 
     def call(self, inputs):
+        # 🧸💬 Replace with LSTM layer from TensorFlow layer.
         return tf.matmul(inputs, self.kernel)
 ```
 
