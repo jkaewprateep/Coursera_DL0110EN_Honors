@@ -223,35 +223,33 @@ def normal_sp(params):
 
 ```
 import time
-start_time = time.time()
+start_time = time.time()                                                            # 🧸💬 Initial start time variable.                                                      
 
-cost_list=[]
-accuracy_list=[]
-N_test=len(dataset_val)
-# n_epochs=5
-n_epochs=10
-for epoch in range(n_epochs):
-    cost=0
-    model.train()
-    for x, y in train_loader:
-        optimizer.zero_grad()
-        z = model(x)
-#         loss = criterion(z, y)
-        loss = criterion(z, torch.tensor(y))
-        loss.backward()
-        optimizer.step()
-        cost+=loss.item()
-    correct=0
+cost_list=[]                                                                        # 🧸💬 Initial cost array variable.
+accuracy_list=[]                                                                    # 🧸💬 Initial accuracy array variable.
+N_test=len(dataset_val)                                                             # 🧸💬 Initial length of validation dataset records.
+n_epochs=10                                                                         # 🧸💬 Initial number of epoaches setting.
+for epoch in range(n_epochs):                                                       # 🧸💬 Define iterations learning.
+    cost=0                                                                          # 🧸💬 Initial cost variable.
+    model.train()                                                                   # 🧸💬 Flagged training state to the model.
+    for x, y in train_loader:                                                       # 🧸💬 Iterates though data loader records.
+        optimizer.zero_grad()                                                       # 🧸💬 Initial optimizer with initial value 0.
+        z = model(x)                                                                # 🧸💬 Define a model.                                           
+        loss = criterion(z, torch.tensor(y))                                        # 🧸💬 Find loss value estimates for training decission.
+        loss.backward()                                                             # 🧸💬 Loss estimation value output.
+        optimizer.step()                                                            # 🧸💬 Continue training by step function.
+        cost+=loss.item()                                                           # 🧸💬 Appending cost array with loss items output.
+    correct=0                                                                       # 🧸💬 Initial variable by value 0.
     
     #perform a prediction on the validation  data 
-    model.eval()
-    for x_test, y_test in test_loader:
-        z = model(x_test)
-        _, yhat = torch.max(z.data, 1)
-        correct += (yhat == y_test).sum().item()
-    accuracy = correct / N_test
-    accuracy_list.append(accuracy)
-    cost_list.append(cost)
+    model.eval()                                                                    # 🧸💬 Evaluation method 👨🏻‍🏫💬 I am not puty I play PyTorch 🥲
+    for x_test, y_test in test_loader:                                              # 🧸💬 Define iterations for test_data from data loader.
+        z = model(x_test)                                                           # 🧸💬 Prediction function without test is multiplication.
+        _, yhat = torch.max(z.data, 1)                                              # 🧸💬 Select prediction result from max possibility values.
+        correct += (yhat == y_test).sum().item()                                    # 🧸💬 Couting number of correct values.
+    accuracy = correct / N_test                                                     # 🧸💬 Define a calculation accuracy values.
+    accuracy_list.append(accuracy)                                                  # 🧸💬 Appending accuracy value to accuracy list.
+    cost_list.append(cost)                                                          # 🧸💬 Appending cost value to cost list.
 ```
 
 <p align="center" width="100%">
