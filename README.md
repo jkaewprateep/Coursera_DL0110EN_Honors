@@ -242,7 +242,7 @@ for epoch in range(n_epochs):                                                   
     correct=0                                                                       # 🧸💬 Initial variable by value 0.
     
     #perform a prediction on the validation  data 
-    model.eval()                                                                    # 🧸💬 Evaluation method 👨🏻‍🏫💬 I am not puty I play PyTorch 🥲
+    model.eval()                                                                    # 🧸💬 Evaluation method 👨🏻‍🏫💬 I am not puty I play PyTorch 🥲 🦭💬 ... 
     for x_test, y_test in test_loader:                                              # 🧸💬 Define iterations for test_data from data loader.
         z = model(x_test)                                                           # 🧸💬 Prediction function without test is multiplication.
         _, yhat = torch.max(z.data, 1)                                              # 🧸💬 Select prediction result from max possibility values.
