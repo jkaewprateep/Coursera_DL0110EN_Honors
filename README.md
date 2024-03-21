@@ -143,6 +143,7 @@ class Dataset(Dataset):                                                         
 
 🦤💬 I give some assignment to a student for SoftMax layer, Normalized layer ... </br>
 🥺💬 I answered about 5 years agos, now see more example people asking on the StackOverflow they are more desired on implement architecture and supporting of some specific system for OCR and documentation modules ... </br>
+🐑💬 ➰ There is no payback money or coins but that is time spending and working experience shared from study and expereince when a new comer can search and implementing of the guideline method with rocket 🚀 </br>
 
 ```
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
