@@ -141,7 +141,13 @@ class Dataset(Dataset):                                                         
 
 ## Create a custom class for layer
 
+🦤💬 I give some assignment to a student for SoftMax layer, Normalized layer ... </br>
+🥺💬 I answered about 5 years agos, now see more example people asking on the StackOverflow they are more desired on implement architecture and supporting of some specific system for OCR and documentation modules ... </br>
+
 ```
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+: Class / Definition
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 class MyDenseLayer(tf.keras.layers.Layer):
     def __init__(self, num_outputs):
         super(MyDenseLayer, self).__init__()
