@@ -127,6 +127,24 @@ class MyDenseLayer(tf.keras.layers.Layer):
         return tf.matmul(inputs, self.kernel)
 ```
 
+```
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+: Class / Definition
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+class MyLSTMLayer( tf.keras.layers.LSTM ):
+    def __init__(self, units, return_sequences, return_state):
+        super(MyLSTMLayer, self).__init__( units, return_sequences=True, return_state=False )
+        self.num_units = units
+
+    def build(self, input_shape):
+        self.kernel = self.add_weight("kernel",
+        shape=[int(input_shape[-1]),
+        self.num_units])
+
+    def call(self, inputs):
+        return tf.matmul(inputs, self.kernel)
+```
+
 <p align="center" width="100%">
     <img width="100%" src="https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/2.png">
 </p>
