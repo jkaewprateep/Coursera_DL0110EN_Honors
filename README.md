@@ -150,3 +150,14 @@ class MyLSTMLayer( tf.keras.layers.LSTM ):
 </p>
 
 - - -
+
+## Create a custom class for function
+
+```
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+: Functions
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""   
+def normal_sp(params):
+    return tfd.Normal(loc=params,\
+                      scale=1e-5 + 0.00001*tf.keras.backend.exp(params))# both parameters are learnable
+```
