@@ -9,6 +9,8 @@ Coursera_DL0110EN_Honors : Fashion-MNIST Project
 👨🏻‍🏫(1)💬 It is working but you need to active anti-virus. </br>
 👨🏻‍🏫(2)💬 We are working on RMS that is because it is proven linearly. </br>
 🐱💬 🎵🎶 I known of you both and not try to prove anything anyone have a paid job for me⁉️ </br> 
+</br>
+🐑💬 ➰ We are talking about what we can working with the custom dataset, in category dataset we can read and transform of data or create output from the dataset object at the specific index or criteria without using the database buffer if you working with a custom dataset or you can using HDFS or FS with the common dataset you do not work with a custom dataset class. </br>
 
 ```
 # 🧸💬 Create data set, as Dataset and DataLoader in Pythorch
