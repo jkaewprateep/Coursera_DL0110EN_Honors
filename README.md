@@ -127,7 +127,9 @@ class Dataset(Dataset):                                                         
 
 ## Image dataset and custom variable stored into TensorFlow logging and database
 
-💃( 👩‍🏫 )💬 I have some requirements about ``` How do I create aggregated reports from labels input prediction or environments input values when there is some simulation and need to create a single report and dashboard from the TensorFlow engine with benefits of logging, memory, disk space and software versions management? ```
+💃( 👩‍🏫 )💬 I have some requirements about ``` How do I create aggregated reports from labels input prediction or environments input values when there is some simulation and need to create a single report and dashboard from the TensorFlow engine with benefits of logging, memory, disk space and software versions management? ``` </br>
+🦤💬 Are you talking about working records backlog tracing? On the day we are talking about this issue for explain of selection category from a list of actions and limited of actions performing to evaluation of the method, compare to the experience this can be tools support of data input and data fields selection and the ability of development of the programmer, business units and computer. </br>
+🦤💬 Data extraction from the source can be imported and working with system solution without number of merged times, you can add of supervised label or scores or advisory scores for the supervised learning method. </br>
 
 
 <p align="center" width="100%">
