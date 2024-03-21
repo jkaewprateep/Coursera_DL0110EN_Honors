@@ -61,51 +61,51 @@ class Dataset(Dataset):                                                         
                                                                                   # 🦤💬 Am I hearing some of these requirements anywhere ⁉️
                                                                                   # 🥺💬 They keep negative votes on my answers then I answer here.
         # Open image file
-        image = Image.open(img_name)
+        image = Image.open(img_name)                                              # 🧸💬 image loading method from Image library.
         
         # The class label for the image
-        y = self.data_name.iloc[idx, 0]
+        y = self.data_name.iloc[idx, 0]                                           # 🧸💬 Initial of dataset record label assigned to a local variable.
         
         # 🧸💬 Category condition or pre-defined functions.
         # set y value as int32
-        if y == "Ankle boot" :
-            y = 0
+        if y == "Ankle boot" :                                                    # 🧸💬 Expanding condition to present of matching or transform you can
+            y = 0                                                                 # 🧸💬 work in the dataset.
             
         # set y value as int32
-        elif y == "T-shirt" :
-            y = 1
+        elif y == "T-shirt" :                                                     # 🧸💬 Expanding condition to present of matching or transform you can
+            y = 1                                                                 # 🧸💬 work in the dataset.
             
         # set y value as int32
-        elif y == "Coat" :
-            y = 2
+        elif y == "Coat" :                                                        # 🧸💬 Expanding condition to present of matching or transform you can
+            y = 2                                                                 # 🧸💬 work in the dataset.
             
         # set y value as int32
-        elif y == "Dress" :
-            y = 3
+        elif y == "Dress" :                                                       # 🧸💬 Expanding condition to present of matching or transform you can
+            y = 3                                                                 # 🧸💬 work in the dataset.
             
         # set y value as int32
-        elif y == "Trouser" :
-            y = 4
+        elif y == "Trouser" :                                                     # 🧸💬 Expanding condition to present of matching or transform you can
+            y = 4                                                                 # 🧸💬 work in the dataset.
             
         # set y value as int32
-        elif y == "Pullover" :
-            y = 5
+        elif y == "Pullover" :                                                    # 🧸💬 Expanding condition to present of matching or transform you can
+            y = 5                                                                 # 🧸💬 work in the dataset.
             
         # set y value as int32
-        elif y == "Shirt" :
-            y = 6
+        elif y == "Shirt" :                                                       # 🧸💬 Expanding condition to present of matching or transform you can
+            y = 6                                                                 # 🧸💬 work in the dataset.
             
         # set y value as int32
-        elif y == "Sandal" :
-            y = 7
+        elif y == "Sandal" :                                                      # 🧸💬 Expanding condition to present of matching or transform you can
+            y = 7                                                                 # 🧸💬 work in the dataset.
             
         # set y value as int32
-        elif y == "Sneaker" :
-            y = 8
+        elif y == "Sneaker" :                                                     # 🧸💬 Expanding condition to present of matching or transform you can
+            y = 8                                                                 # 🧸💬 work in the dataset.
             
         # set y value as int32
-        elif y == "Bag" :
-            y = 9
+        elif y == "Bag" :                                                         # 🧸💬 Expanding condition to present of matching or transform you can
+            y = 9                                                                 # 🧸💬 work in the dataset.
             
         else:
             print( y )
