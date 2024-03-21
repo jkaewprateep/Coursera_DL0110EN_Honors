@@ -195,6 +195,9 @@ class MyLSTMLayer( tf.keras.layers.LSTM ):                                      
 
 ## Create a custom class for function
 
+🐨🎁🎵🎶 A custom function, ``` In technology fields, how do our student retain ability and potential when settings and use cases of the equipment are the same⁉️ ``` </br>
+👨🏻‍🏫💬 We can teach them to create custom functions, and semi-functions that help in multiple steps of learning and practice to use in the actual cases. </br>
+
 ```
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
 : Functions
