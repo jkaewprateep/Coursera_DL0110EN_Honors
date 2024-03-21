@@ -199,6 +199,7 @@ class MyLSTMLayer( tf.keras.layers.LSTM ):                                      
 👨🏻‍🏫💬 We can teach them to create custom functions, and semi-functions that help in multiple steps of learning and practice to use in the actual cases. </br>
 👧💬 🎈 I go to the exhibitions and watch the equipment use cases when my friends do not understand of the ```import/export``` modes. </br>
 👨🏻‍🏫💬 Trust me we are working on fields and research it is for the situation and Thai students. </br>
+🦭💬 One of them is the designers they speak on television, have anyone try visit my exhibitions⁉️ </br>
 
 ```
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
