@@ -105,3 +105,24 @@ class Dataset(Dataset):
 <p align="center" width="100%">
     <img width="100%" src="https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/1.png">
 </p>
+
+- - - 
+
+## Create a custom class for layer
+
+```
+class MyDenseLayer(tf.keras.layers.Layer):
+    def __init__(self, num_outputs):
+        super(MyDenseLayer, self).__init__()
+        self.num_outputs = num_outputs
+        
+    def build(self, input_shape):
+        min_size_init = tf.keras.initializers.RandomUniform(minval=10, maxval=10, seed=None)
+        self.kernel = self.add_weight(shape=[int(input_shape[-1]),
+                        self.num_outputs],
+                        initializer = min_size_init,
+                        trainable=True)
+
+    def call(self, inputs):
+        return tf.matmul(inputs, self.kernel)
+```
