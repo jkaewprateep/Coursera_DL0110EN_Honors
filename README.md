@@ -219,6 +219,7 @@ def normal_sp(params):
 ## Create a learning as criterion with Gradient Tape
 
 💃( 👩‍🏫 )💬 This is working as the TensorFlow version 1, and in Pythorch we can do the same they combined of the loss estimation function with historical logging and sometimes matrixes estimators as criterions. </br>
+🦤💬 In a large scale computation we still use of this pattern you can see from the Gradient method, they are working on communication part more than calculation part as they are specifically use on the distributed system and when the question is do we need to use a server for none distribution system or specific calculation units this is the answer. </br> 
 
 ```
 import time
