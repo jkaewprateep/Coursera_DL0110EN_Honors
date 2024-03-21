@@ -218,6 +218,8 @@ def normal_sp(params):
 
 ## Create a learning as criterion with Gradient Tape
 
+💃( 👩‍🏫 )💬 This is working as the TensorFlow version 1, and in Pythorch we can do the same they combined of the loss estimation function with historical logging and sometimes matrixes estimators as criterions. </br>
+
 ```
 import time
 start_time = time.time()
