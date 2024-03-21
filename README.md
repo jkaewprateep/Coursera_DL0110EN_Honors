@@ -113,7 +113,7 @@ class Dataset(Dataset):                                                         
 
         # If there is any transform method, apply it onto the image
         if self.transform:
-            image = self.transform(image)
+            image = self.transform(image)                                         # 🧸💬 Transform an image by transform function for output.
             
         return image, y
 ```
