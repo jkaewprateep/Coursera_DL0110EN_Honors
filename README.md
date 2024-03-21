@@ -15,6 +15,9 @@ Coursera_DL0110EN_Honors : Fashion-MNIST Project
 🥺💬 I think to have kids they need to have some stable resources my dad working at the convenience store create a barcode reader and accounting program for buy me a computer too. 🪣🐡🐙🪸🐳 </br>
 
 ```
+IMAGE_SIZE = 16
+transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),                 # 🧸💬 Transfrom function you can add augmentations for the output.
+
 # 🧸💬 Create data set, as Dataset and DataLoader in Pythorch
 from torch.utils.data import Dataset, DataLoader
 
