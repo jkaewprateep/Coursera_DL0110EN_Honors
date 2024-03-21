@@ -3,6 +3,8 @@ Coursera_DL0110EN_Honors : Fashion-MNIST Project
 
 ## Create a custom class for dataset
 
+👧💬 🎈 We had been talking about this before but the custom dataset can contain of data frame, specific method for data loading and management, functions to generated data, API Key or communication method that allows you to access the current update online of the data or transform functions. </br>
+
 ```
 # 🧸💬 Create data set, as Dataset and DataLoader in Pythorch
 from torch.utils.data import Dataset, DataLoader
