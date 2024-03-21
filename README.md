@@ -127,6 +127,9 @@ class Dataset(Dataset):                                                         
 
 ## Image dataset and custom variable stored into TensorFlow logging and database
 
+💃( 👩‍🏫 )💬 I have some requirements about ``` How do I create aggregated reports from labels input prediction or environments input values when there is some simulation and need to create a single report and dashboard from the TensorFlow engine with benefits of logging, memory, disk space and software versions management? ```
+
+
 <p align="center" width="100%">
     <img width="100%" src="https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/4.png">
 </p>
