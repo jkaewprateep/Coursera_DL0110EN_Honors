@@ -171,3 +171,44 @@ def normal_sp(params):
 <p align="center" width="100%">
     <img width="100%" src="https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/3.png">
 </p>
+
+- - -
+
+## Create a learning as criterion with Gradient Tape
+
+```
+import time
+start_time = time.time()
+
+cost_list=[]
+accuracy_list=[]
+N_test=len(dataset_val)
+# n_epochs=5
+n_epochs=10
+for epoch in range(n_epochs):
+    cost=0
+    model.train()
+    for x, y in train_loader:
+        optimizer.zero_grad()
+        z = model(x)
+#         loss = criterion(z, y)
+        loss = criterion(z, torch.tensor(y))
+        loss.backward()
+        optimizer.step()
+        cost+=loss.item()
+    correct=0
+    
+    #perform a prediction on the validation  data 
+    model.eval()
+    for x_test, y_test in test_loader:
+        z = model(x_test)
+        _, yhat = torch.max(z.data, 1)
+        correct += (yhat == y_test).sum().item()
+    accuracy = correct / N_test
+    accuracy_list.append(accuracy)
+    cost_list.append(cost)
+```
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/5.png">
+</p>
