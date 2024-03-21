@@ -54,10 +54,11 @@ class Dataset(Dataset):                                                         
         return 100                                                                # 🧸💬 need to specify of the selection method as input because users
                                                                                   # 🧸💬 are not reading though the custom class even readme.txt provided.
         # Getter
-    def __getitem__(self, idx):
+    def __getitem__(self, idx):                                                   # 🧸💬 Select images by the reference of the .csv file.
         
         # Image file path
-        img_name=os.path.join(self.data_dir,self.data_name.iloc[idx, 1])
+        img_name=os.path.join(self.data_dir,self.data_name.iloc[idx, 1])          # 🧸💬 Reading an image from a file path, memory has only index of items.
+                                                                                  # 🦤💬 Am I hearing some of these requirements anywhere ⁉️
         # Open image file
         image = Image.open(img_name)
         
