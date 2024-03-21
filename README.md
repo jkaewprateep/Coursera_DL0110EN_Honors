@@ -212,3 +212,11 @@ for epoch in range(n_epochs):
 <p align="center" width="100%">
     <img width="100%" src="https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/5.png">
 </p>
+
+- - -
+
+## Matrix weights response distribution
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/6.png">
+</p>
