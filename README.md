@@ -59,6 +59,7 @@ class Dataset(Dataset):                                                         
         # Image file path
         img_name=os.path.join(self.data_dir,self.data_name.iloc[idx, 1])          # 🧸💬 Reading an image from a file path, memory has only index of items.
                                                                                   # 🦤💬 Am I hearing some of these requirements anywhere ⁉️
+                                                                                  # 🥺💬 They keep negative votes on my answers then I answer here.
         # Open image file
         image = Image.open(img_name)
         
