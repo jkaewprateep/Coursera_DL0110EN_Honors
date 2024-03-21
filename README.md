@@ -106,6 +106,12 @@ class Dataset(Dataset):
     <img width="100%" src="https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/1.png">
 </p>
 
+## Image dataset and custom variable stored into TensorFlow logging and database
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/4.png">
+</p>
+
 - - - 
 
 ## Create a custom class for layer
