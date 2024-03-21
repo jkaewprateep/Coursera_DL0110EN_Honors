@@ -126,3 +126,9 @@ class MyDenseLayer(tf.keras.layers.Layer):
     def call(self, inputs):
         return tf.matmul(inputs, self.kernel)
 ```
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/2.png">
+</p>
+
+- - -
