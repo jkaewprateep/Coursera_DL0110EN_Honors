@@ -11,6 +11,7 @@ Coursera_DL0110EN_Honors : Fashion-MNIST Project
 🐱💬 🎵🎶 I known of you both and not try to prove anything anyone have a paid job for me⁉️ </br> 
 </br>
 🐑💬 ➰ We are talking about what we can working with the custom dataset, in category dataset we can read and transform of data or create output from the dataset object at the specific index or criteria without using the database buffer if you working with a custom dataset or you can using HDFS or FS with the common dataset you do not work with a custom dataset class. </br>
+🐐💬 I can add a transformation function, one-hot-vector or random generate output for custom dataset for games and simulations but custom dataset need to be defined because custom functions, custom layer are working on local machines when datasets generated of data you need to perform at training iterations. Thinking about library database, ABCD colour and alphabet matching games and reserach data they are working as database class and you can validate of data or transform data into multiple formats ISBN for books or label or laboratory objects. </br>
 
 ```
 # 🧸💬 Create data set, as Dataset and DataLoader in Pythorch
