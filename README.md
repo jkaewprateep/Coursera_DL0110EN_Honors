@@ -260,6 +260,8 @@ for epoch in range(n_epochs):                                                   
 
 ## Matrix weights response distribution
 
+🐐💬 Loss estimation functions or estimating value function is simply and you can create by using simple of calculation method with logarithms scales or time scales but background they had mathametics you may consider since number of dimension or observations increase the number of inputs is more than two or three inputs possibility more. Remain the matrixes sizes dimension you need to put some intelligence sometimes is expreinces and mathematical for the problem sovlers </br> 
+
 ```
 # 🧸💬 Cross-entrophy loss
 criterion = nn.CrossEntropyLoss()
