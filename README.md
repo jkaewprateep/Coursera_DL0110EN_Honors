@@ -161,3 +161,7 @@ def normal_sp(params):
     return tfd.Normal(loc=params,\
                       scale=1e-5 + 0.00001*tf.keras.backend.exp(params))# both parameters are learnable
 ```
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/3.png">
+</p>
