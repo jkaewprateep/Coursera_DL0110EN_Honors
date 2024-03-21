@@ -101,3 +101,7 @@ class Dataset(Dataset):
             
         return image, y
 ```
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/1.png">
+</p>
