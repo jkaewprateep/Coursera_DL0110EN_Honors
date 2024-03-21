@@ -217,6 +217,15 @@ for epoch in range(n_epochs):
 
 ## Matrix weights response distribution
 
+```
+# 🧸💬 Cross-entrophy loss
+criterion = nn.CrossEntropyLoss()
+
+def rms_criterion(yhat,y):
+    out = -1 * torch.mean(y * torch.log(yhat) + (1 - y) * torch.log(1 - yhat))
+    return out
+```
+
 <p align="center" width="100%">
     <img width="100%" src="https://github.com/jkaewprateep/Coursera_DL0110EN_Honors/blob/main/6.png">
 </p>
