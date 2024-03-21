@@ -166,22 +166,24 @@ class MyDenseLayer(tf.keras.layers.Layer):                                      
         return tf.matmul(inputs, self.kernel)                                      # 🧸💬 Calculation outputs.
 ```
 
+### 🧸💬 Create a custom LSTM layer class.
+
 ```
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
 : Class / Definition
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
-class MyLSTMLayer( tf.keras.layers.LSTM ):
+class MyLSTMLayer( tf.keras.layers.LSTM ):                                         # 🧸💬 Create a custom class as Layer type.
     def __init__(self, units, return_sequences, return_state):
         super(MyLSTMLayer, self).__init__( units, return_sequences=True, return_state=False )
         self.num_units = units
 
-    def build(self, input_shape):
+    def build(self, input_shape):                                                  # 🧸💬 Initial number of output assign a local variable.
         self.kernel = self.add_weight("kernel",
         shape=[int(input_shape[-1]),
         self.num_units])
 
     def call(self, inputs):
-        # 🧸💬 Replace with LSTM layer from TensorFlow layer.
+        # 🧸💬 Replace with LSTM layer from TensorFlow layer.                     # 🧸💬 Calculation outputs.
         return tf.matmul(inputs, self.kernel)
 ```
 
