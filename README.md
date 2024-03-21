@@ -49,10 +49,10 @@ class Dataset(Dataset):                                                         
     
     # Get the length
     def __len__(self):
-#         return self.len
-        # 🧸💬 incorrect length number
-        return 100
-        
+#         return self.len                                                         # 🧸💬 Create target numbers or ratios for the selection dataset
+        # 🧸💬 incorrect length number                                           # 🧸💬 Method overriding can perform but by programming manners, you
+        return 100                                                                # 🧸💬 need to specify of the selection method as input because users
+                                                                                  # 🧸💬 are not reading though the custom class even readme.txt provided.
         # Getter
     def __getitem__(self, idx):
         
