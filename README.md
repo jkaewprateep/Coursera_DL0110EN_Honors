@@ -108,7 +108,8 @@ class Dataset(Dataset):                                                         
             y = 9                                                                 # 🧸💬 work in the dataset.
             
         else:
-            print( y )
+            print( y )                                                            # 🧸💬 Something else not matching return the same, working with future
+                                                                                  # 🧸💬 category.
 
         # If there is any transform method, apply it onto the image
         if self.transform:
