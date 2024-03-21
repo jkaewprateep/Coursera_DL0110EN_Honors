@@ -18,32 +18,34 @@ Coursera_DL0110EN_Honors : Fashion-MNIST Project
 # 🧸💬 Create data set, as Dataset and DataLoader in Pythorch
 from torch.utils.data import Dataset, DataLoader
 
-class Dataset(Dataset):
+class Dataset(Dataset):                                                           # 🧸💬 Create a simple calss definition.
 
     # Constructor
-    def __init__(self, csv_file, data_dir, transform=None, ratios=0.5):
+    def __init__(self, csv_file, data_dir, transform=None, ratios=0.5):           # 🧸💬 Python class initial loader __init__ .
         
         # Image directory
-        self.data_dir=data_dir
+        self.data_dir=data_dir                                                    # 🧸💬 Initial internal class variable.
         
         # The transform is goint to be used on image
-        self.transform = transform
+        self.transform = transform                                                # 🧸💬 Initial internal class variable.
         data_dircsv_file=os.path.join(self.data_dir,csv_file)
         # Load the CSV file contians image info
-        self.data_name= pd.read_csv(data_dircsv_file)
+        self.data_name= pd.read_csv(data_dircsv_file)                             # 🧸💬 Download data from target .csv file.
         
         # Number of images in dataset
-        self.len=self.data_name.shape[0] 
+        self.len=self.data_name.shape[0]                                          # 🧸💬 Initial internal class variable.
         
         # 🧸💬 to create training and validate dataset 
-        self.ratios = ratios
-        self.max_train_index = int( 100 * ( 1 - self.ratios ) )
-        self.max_validate_index = 100 - self.max_train_index
+        self.ratios = ratios                                                      # 🧸💬 Ratios determine the selection number.
+        self.max_train_index = int( 100 * ( 1 - self.ratios ) )                   # 🧸💬 Conversion to int number.
+        self.max_validate_index = 100 - self.max_train_index                      # 🧸💬 Remainder records for testing input.
     
     def __test__(self):
         
-        print( self.data_name.iloc[0, 0] )
-        return
+        print( self.data_name.iloc[0, 0] )                                        # 🧸💬 Validate result, __init__ load success.
+        # 🐑💬 ➰ If __init__ load success not only return of the function but the first record or selection record have correct shape.
+        # 🧸💬 This is a bug in 0 return function and some programmer used to use -1 or 0 return or return logics from APIs.
+        return                                                                    
     
     # Get the length
     def __len__(self):
