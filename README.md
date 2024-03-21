@@ -4,7 +4,10 @@ Coursera_DL0110EN_Honors : Fashion-MNIST Project
 ## Create a custom class for dataset
 
 👧💬 🎈 We had been talking about this before but the custom dataset can contain of data frame, specific method for data loading and management, functions to generated data, API Key or communication method that allows you to access the current update online of the data or transform functions. </br>
-🦭💬 In previous versions fixed number of data stored in the dataset and they generate of the data by the target number of records estimation, working on some exames you need to verify of the data and drop of null values that is intention of the instructors. Seek and scan the data before summation and verify matching data types before comparison </br>
+🦭💬 In previous versions fixed number of data stored in the dataset and they generate of the data by the target number of records estimation, working on some exames you need to verify of the data and drop of null values that is intention of the instructors. Seek and scan the data before summation and verify matching data types before comparison. </br>
+🦤💬 Why I have to update everytime I using in new computer even on my laptop, anyway I have an off-line versions from my student's friend. </br>
+👨🏻‍🏫💬 It is working but you need to active anti-virus. </br>
+🐱💬 🎵🎶 I known of you both and not try to prove anything anyone have a paid job for me⁉️ </br> 
 
 ```
 # 🧸💬 Create data set, as Dataset and DataLoader in Pythorch
